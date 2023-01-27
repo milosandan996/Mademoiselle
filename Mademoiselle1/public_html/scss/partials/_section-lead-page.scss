@@ -1,0 +1,54 @@
+
+
+.home-lead-page-div{
+    background-image: url(../images/mademoiselle-home.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.home-lead-page{
+    background-color: rgba(0,0,0,0.2);
+    h1{
+        font-size: 4.5rem;
+        padding-top: 21.8rem;
+        color: white;
+        font-family: $bodoni;
+        line-height: 8.4rem;
+        letter-spacing: 1rem;
+    }
+}
+
+.services-lead-page-div{
+    background-image: url(../images/services-home.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.services-lead-page{
+    background-color: rgba(0,0,0,0.2);
+    h1{
+        font-size: 6rem;
+        padding-top: 28.3rem;
+        color: white;
+        font-family: $bodoni;
+        line-height: 8.4rem;
+        letter-spacing: 2rem;
+    }
+}
+
+
+
+
+
+@media(min-width:567px){
+    .home-lead-page{
+        h1{
+            font-size: $h1-font-size;
+            letter-spacing: 2rem;
+        }
+    }
+}
+
+

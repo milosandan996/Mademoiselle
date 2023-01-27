@@ -1,15 +1,15 @@
 
 
 @font-face {
-    font-family: 'Bodoni' , sans-serif;
-    src: url('fonts/Bodoni-Book.eot');
-    src: url('fonts/Bodoni-Book.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Bodoni-Book.woff2') format('woff2'),
-        url('fonts/Bodoni-Book.woff') format('woff'),
-        url('fonts/Bodoni-Book.ttf') format('truetype'),
-        url('fonts/Bodoni-Book.svg#Bodoni-Book') format('svg');
+    font-family: 'Bodoni';
+    src: url('fonts/MBodoni-Book.eot');
+    src: url('fonts/MBodoni-Book.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MBodoni-Book.woff2') format('woff2'),
+        url('fonts/MBodoni-Book.woff') format('woff'),
+        url('fonts/MBodoni-Book.ttf') format('truetype');
+
     font-weight: normal;
-    font-style: normal;
+    font-style: italic;
     font-display: swap;
 }
 

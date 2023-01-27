@@ -1,0 +1,52 @@
+
+
+header{
+    nav{
+        padding: 0 !important;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        div.container{
+            background-color: white !important;
+            .navbar-brand{
+                padding-bottom: 2.7rem;
+                padding-top: 2.7rem;
+            }
+            div{
+                ul{
+                    li{
+                        font-size: 1.4rem;
+                        line-height: 1.7rem;
+                        letter-spacing: 1px;
+                        color: $black !important;
+                        font-family: $lato;
+                        opacity: 1 !important;
+                        margin-bottom: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media(min-width: 768px){
+    header{
+        nav{
+            margin-left: 0;
+            margin-right: 0;
+            div.container{
+                .navbar-brand{
+
+                }
+                div{
+                    ul{
+                        li{
+                            margin-left: 7.3rem;
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
