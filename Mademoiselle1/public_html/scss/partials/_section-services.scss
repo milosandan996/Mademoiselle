@@ -1,0 +1,145 @@
+
+
+.section-services{
+    margin-bottom: 11.1rem;
+    div{
+        h4{
+            @extend #h4;
+        }
+        div.row{
+            div{
+                padding-bottom: 9.5rem;
+                padding-top: 14.3rem;
+                h3{
+                    @extend #h3;
+                    padding-left: 1.5rem;
+                    padding-right: 1.5rem;
+                    padding-bottom: 4.9rem;
+                    font-family: $lato;
+                }
+                a{
+                    margin-left: 1.5rem;
+                    text-decoration: none;
+                    font-family: $lato;
+                    font-size: 1.4rem;
+                    line-height: 1.7rem;
+                    letter-spacing: 0.5px;
+                    color: #1E1E1E;
+                    border: 1px solid #1E1E1E;
+                    padding-bottom: 1.5rem;
+                    padding-top: 1.5rem;
+                    padding-left: 3.6rem;
+                    padding-right: 3.6rem;
+                }
+            }
+        }
+    }
+}
+
+.left{
+    background-color: $gray-light;
+}
+
+.right{
+    background-color: $cream;
+}
+
+
+@media(min-width: 576px){
+
+    .section-services{
+        div{
+            div.row{
+                div{
+                    padding-bottom: 14rem;
+                    padding-top: 14rem;
+                }
+            }
+        }
+    }
+
+}
+
+
+@media(min-width: 768px){
+
+    .section-services{
+        div{
+            div.row{
+                div{
+                    h3{
+                        padding-top: 2rem;
+                    }
+                    padding-bottom: 0rem;
+                    padding-top: 0rem;
+                }
+            }
+        }
+    }
+
+
+}
+
+
+@media(min-width: 992px){
+
+    .section-services{
+        div{
+            h4{
+                margin-bottom: 5.8rem;
+            }
+            div.row{
+                div{
+
+                    h3{
+                        padding-left: 5rem;
+                        padding-right: 9.5rem;
+                        padding-top: 10rem;
+                    }
+                    a{
+                        margin-left: 5rem;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+@media(min-width: 1200px){
+
+    .section-services{
+        div{
+            h4{
+                margin-bottom: 5.8rem;
+            }
+            div.row{
+                div{
+
+                    h3{
+                        padding-left: 9.5rem;
+                        padding-right: 9.5rem;
+                        padding-top: 14.3rem;
+                    }
+                    a{
+                        margin-left: 9.5rem;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

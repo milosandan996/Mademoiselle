@@ -8,4 +8,41 @@ html{
     // 1 rem
 }
 
+#home-page-div{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#home-page{
+    margin-bottom: 7.5rem;
+    background-color: rgba(0,0,0,0.2);
+    h1{
+        font-size: 4.5rem;
+        padding-top: 21.8rem;
+        color: white;
+        font-family: $bodoni;
+        line-height: 8.4rem;
+        letter-spacing: 1rem;
+    }
+}
+
+#h4{
+    font-family: $bodoni;
+    line-height: 4.5rem;
+    letter-spacing: 5px;
+    color: $black;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 4.9rem;
+}
+
+#h3{
+    letter-spacing: normal;
+    line-height: 4.4rem;
+    color: #1E1E1E;
+    text-align: left;
+    text-transform: uppercase;
+}
+
 

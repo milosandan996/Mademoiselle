@@ -1,0 +1,30 @@
+
+section.h44{
+    margin-bottom: 7rem;
+    h4{
+        @extend #h4;
+        margin-bottom: 5.6rem;
+    }
+    div.section-trust{
+        border: 1px solid $cream;
+        div.owl-carousel{
+            div{
+                height: 45rem;
+                div.row{
+                    aside{
+                        padding-top: 5.4rem;
+                    }
+                    article{
+                        padding-top: 8.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+

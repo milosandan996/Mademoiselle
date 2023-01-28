@@ -9910,6 +9910,44 @@ html {
   font-size: 10px;
 }
 
+#home-page-div, .home-lead-page-div, .services-lead-page-div, .blog-lead-page-div, .about-lead-page-div, .eror404-lead-page-div {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+#home-page, .home-lead-page, .services-lead-page, .blog-lead-page, .about-lead-page, .eror404-lead-page {
+  margin-bottom: 7.5rem;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#home-page h1, .home-lead-page h1, .services-lead-page h1, .blog-lead-page h1, .about-lead-page h1, .eror404-lead-page h1 {
+  font-size: 4.5rem;
+  padding-top: 21.8rem;
+  color: white;
+  font-family: "Bodoni";
+  line-height: 8.4rem;
+  letter-spacing: 1rem;
+}
+
+#h4, .section-article div.container h4, .section-services div h4, section.h44 h4 {
+  font-family: "Bodoni";
+  line-height: 4.5rem;
+  letter-spacing: 5px;
+  color: #1E1E1E;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 4.9rem;
+}
+
+#h3, .section-services div div.row div h3 {
+  letter-spacing: normal;
+  line-height: 4.4rem;
+  color: #1E1E1E;
+  text-align: left;
+  text-transform: uppercase;
+}
+
 header nav {
   padding: 0 !important;
   margin-left: 1rem;
@@ -9930,7 +9968,7 @@ header nav div.container div ul li {
   line-height: 1.7rem;
   letter-spacing: 1px;
   color: #1E1E1E !important;
-  font-family: "Lato", sans-serif;
+  font-family: "Lato";
   opacity: 1 !important;
   margin-bottom: 1rem;
 }
@@ -9948,42 +9986,6 @@ header nav div.container div ul li {
 
 .home-lead-page-div {
   background-image: url(../images/mademoiselle-home.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
-}
-
-.home-lead-page {
-  background-color: rgba(0, 0, 0, 0.2);
-}
-
-.home-lead-page h1 {
-  font-size: 4.5rem;
-  padding-top: 21.8rem;
-  color: white;
-  font-family: "Bodoni";
-  line-height: 8.4rem;
-  letter-spacing: 1rem;
-}
-
-.services-lead-page-div {
-  background-image: url(../images/services-home.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
-}
-
-.services-lead-page {
-  background-color: rgba(0, 0, 0, 0.2);
-}
-
-.services-lead-page h1 {
-  font-size: 6rem;
-  padding-top: 28.3rem;
-  color: white;
-  font-family: "Bodoni";
-  line-height: 8.4rem;
-  letter-spacing: 2rem;
 }
 
 @media (min-width: 567px) {
@@ -9991,6 +9993,257 @@ header nav div.container div ul li {
     font-size: 6rem;
     letter-spacing: 2rem;
   }
+}
+
+.services-lead-page-div {
+  background-image: url(../images/services-home.png);
+}
+
+.services-lead-page h1 {
+  padding-top: 28.3rem;
+}
+
+.blog-lead-page-div {
+  background-image: url(../images/blog-home.png);
+}
+
+.blog-lead-page h1 {
+  padding-top: 28.3rem;
+}
+
+.about-lead-page-div {
+  background-image: url(../images/about-home.png);
+}
+
+.about-lead-page h1 {
+  padding-top: 28.3rem;
+}
+
+.eror404-lead-page-div {
+  background-image: url(../images/eror404-home.png);
+}
+
+@media (min-width: 567px) {
+  .eror404-lead-page h1 {
+    font-size: 6rem;
+    letter-spacing: 2rem;
+  }
+}
+
+.section-article {
+  margin-bottom: 3rem;
+}
+
+.section-article div.container article {
+  text-align: center;
+  margin-bottom: 8rem;
+}
+
+.section-article div.container article div {
+  margin: 0 auto;
+  position: static !important;
+  background-color: white;
+  bottom: -3.5rem;
+  left: 10%;
+  padding-top: 1.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.section-article div.container article div p i {
+  font-family: "Bodoni";
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  line-height: 1.7rem;
+  color: #1E1E1E;
+}
+
+.section-article div.container article div p {
+  font-family: "Lato";
+  font-size: 1.6rem;
+  letter-spacing: normal;
+  line-height: 2.4rem;
+  color: #1E1E1E;
+  text-transform: uppercase;
+}
+
+.section-article article.smaller div {
+  left: 11% !important;
+  padding-left: 5.3rem !important;
+  padding-right: 5.3rem !important;
+}
+
+@media (min-width: 576px) {
+  .section-article div.container article div {
+    position: absolute !important;
+    left: 15%;
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+  .section-article article.smaller div {
+    left: 14% !important;
+    padding-left: 10rem !important;
+    padding-right: 10rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-article div.container article div {
+    position: absolute !important;
+    left: 15%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .section-article div.container article div p {
+    font-size: 1rem;
+  }
+  .section-article article.smaller div {
+    left: 17% !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .section-article div.container article div {
+    position: absolute !important;
+    left: 14%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .section-article div.container article div p {
+    font-size: 1.4rem;
+  }
+  .section-article article.smaller div {
+    left: 17% !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-article div.container article div {
+    position: absolute !important;
+    left: 10%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .section-article div.container article div p {
+    font-size: 1.6rem;
+  }
+  .section-article article.smaller div {
+    left: 9% !important;
+    padding-left: 6rem !important;
+    padding-right: 6rem !important;
+  }
+}
+
+.section-services {
+  margin-bottom: 11.1rem;
+}
+
+.section-services div div.row div {
+  padding-bottom: 9.5rem;
+  padding-top: 14.3rem;
+}
+
+.section-services div div.row div h3 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 4.9rem;
+  font-family: "Lato";
+}
+
+.section-services div div.row div a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-family: "Lato";
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.5px;
+  color: #1E1E1E;
+  border: 1px solid #1E1E1E;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  padding-left: 3.6rem;
+  padding-right: 3.6rem;
+}
+
+.left {
+  background-color: #F5F5F5;
+}
+
+.right {
+  background-color: #ECD9D9;
+}
+
+@media (min-width: 576px) {
+  .section-services div div.row div {
+    padding-bottom: 14rem;
+    padding-top: 14rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-services div div.row div {
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+  }
+  .section-services div div.row div h3 {
+    padding-top: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .section-services div h4 {
+    margin-bottom: 5.8rem;
+  }
+  .section-services div div.row div h3 {
+    padding-left: 5rem;
+    padding-right: 9.5rem;
+    padding-top: 10rem;
+  }
+  .section-services div div.row div a {
+    margin-left: 5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-services div h4 {
+    margin-bottom: 5.8rem;
+  }
+  .section-services div div.row div h3 {
+    padding-left: 9.5rem;
+    padding-right: 9.5rem;
+    padding-top: 14.3rem;
+  }
+  .section-services div div.row div a {
+    margin-left: 9.5rem;
+  }
+}
+
+section.h44 {
+  margin-bottom: 7rem;
+}
+
+section.h44 h4 {
+  margin-bottom: 5.6rem;
+}
+
+section.h44 div.section-trust {
+  border: 1px solid #ECD9D9;
+}
+
+section.h44 div.section-trust div.owl-carousel div {
+  height: 45rem;
+}
+
+section.h44 div.section-trust div.owl-carousel div div.row aside {
+  padding-top: 5.4rem;
+}
+
+section.h44 div.section-trust div.owl-carousel div div.row article {
+  padding-top: 8.5rem;
 }
 
 /*# sourceMappingURL=theme.css.map */

@@ -1,46 +1,19 @@
 
 
+
+
+
+
+///////////////////////////////home page//////////////////////////////////////
+
 .home-lead-page-div{
+    @extend #home-page-div;
     background-image: url(../images/mademoiselle-home.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;
 }
 
 .home-lead-page{
-    background-color: rgba(0,0,0,0.2);
-    h1{
-        font-size: 4.5rem;
-        padding-top: 21.8rem;
-        color: white;
-        font-family: $bodoni;
-        line-height: 8.4rem;
-        letter-spacing: 1rem;
-    }
+    @extend #home-page;
 }
-
-.services-lead-page-div{
-    background-image: url(../images/services-home.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;
-}
-
-.services-lead-page{
-    background-color: rgba(0,0,0,0.2);
-    h1{
-        font-size: 6rem;
-        padding-top: 28.3rem;
-        color: white;
-        font-family: $bodoni;
-        line-height: 8.4rem;
-        letter-spacing: 2rem;
-    }
-}
-
-
-
-
 
 @media(min-width:567px){
     .home-lead-page{
@@ -51,4 +24,70 @@
     }
 }
 
+///////////////////////////////services page////////////////////////////////////
+
+.services-lead-page-div{
+    @extend #home-page-div;
+    background-image: url(../images/services-home.png);
+}
+
+.services-lead-page{
+    @extend #home-page;
+    h1{
+        padding-top: 28.3rem;
+    }
+}
+
+/////////////////////////////////blog page//////////////////////////////////////
+
+
+.blog-lead-page-div{
+    @extend #home-page-div;
+    background-image: url(../images/blog-home.png);
+}
+
+.blog-lead-page{
+    @extend #home-page;
+    h1{
+        padding-top: 28.3rem;
+    }
+}
+
+////////////////////////////////about page//////////////////////////////////////
+
+
+.about-lead-page-div{
+    @extend #home-page-div;
+    background-image: url(../images/about-home.png);
+}
+
+.about-lead-page{
+    @extend #home-page;
+    h1{
+        padding-top: 28.3rem;
+    }
+}
+
+
+
+////////////////////////////////////eror404/////////////////////////////////////
+
+
+.eror404-lead-page-div{
+    @extend #home-page-div;
+    background-image: url(../images/eror404-home.png);
+}
+
+.eror404-lead-page{
+    @extend #home-page;
+}
+
+@media(min-width:567px){
+    .eror404-lead-page{
+        h1{
+            font-size: $h1-font-size;
+            letter-spacing: 2rem;
+        }
+    }
+}
 
