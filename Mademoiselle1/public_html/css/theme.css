@@ -9928,9 +9928,10 @@ html {
   font-family: "Bodoni";
   line-height: 8.4rem;
   letter-spacing: 1rem;
+  text-transform: uppercase;
 }
 
-#h4, .section-article div.container h4, .section-services div h4, section.h44 h4 {
+#h4, .section-article div.container h4, .section-services div h4, section.h44 h4, .section-contact div.container div.row div h4 {
   font-family: "Bodoni";
   line-height: 4.5rem;
   letter-spacing: 5px;
@@ -9946,6 +9947,35 @@ html {
   color: #1E1E1E;
   text-align: left;
   text-transform: uppercase;
+}
+
+#h2, .section-single-service div.container div.row div h2, .section-single-blog-home div.container div.row div h2, .section-about div.container div.row div h2 {
+  font-family: "Lato";
+  text-transform: uppercase;
+  line-height: 5.5rem;
+  text-align: left;
+  letter-spacing: normal;
+  color: #1E1E1E;
+}
+
+.container2 {
+  width: 100%;
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 992px) {
+  .container2 {
+    max-width: 920px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container2 {
+    max-width: 750px;
+  }
 }
 
 header nav {
@@ -9971,6 +10001,7 @@ header nav div.container div ul li {
   font-family: "Lato";
   opacity: 1 !important;
   margin-bottom: 1rem;
+  color: #1E1E1E;
 }
 
 @media (min-width: 768px) {
@@ -10244,6 +10275,321 @@ section.h44 div.section-trust div.owl-carousel div div.row aside {
 
 section.h44 div.section-trust div.owl-carousel div div.row article {
   padding-top: 8.5rem;
+}
+
+section.h44 div.section-trust div.owl-carousel div div.row article p {
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.3rem;
+  color: #1E1E1E;
+}
+
+footer {
+  margin-top: 10rem;
+  text-align: center;
+}
+
+footer div i {
+  height: 2rem;
+  width: 2rem;
+  color: #ECD9D9;
+  margin-right: 4rem;
+  margin-bottom: 1rem;
+}
+
+footer div i:last-of-type {
+  margin-right: 0px;
+}
+
+footer div p {
+  font-family: "Lato";
+  font-size: 1.2rem;
+  line-height: 4.1rem;
+  color: #1E1E1E;
+  letter-spacing: -0.17px;
+}
+
+.section-single-service {
+  margin-bottom: 8.1rem;
+  margin-top: 8rem;
+}
+
+.section-single-service div.container div.row div img {
+  margin-bottom: 4rem;
+}
+
+.section-single-service div.container div.row div h2 {
+  margin-bottom: 2.5rem;
+}
+
+.section-single-service div.container div.row div p {
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  color: #1E1E1E;
+  letter-spacing: normal;
+}
+
+@media (min-width: 768px) {
+  .section-single-service {
+    margin-bottom: 12rem;
+    margin-top: 12rem;
+  }
+  .section-single-service div.container div.row div img {
+    margin-bottom: 5rem;
+  }
+  .section-single-service div.container div.row div h2 {
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-single-service {
+    margin-bottom: 18.1rem;
+    margin-top: 17rem;
+  }
+  .section-single-service div.container div.row div h2 {
+    margin-bottom: 2.5rem;
+    padding-left: 10rem;
+  }
+  .section-single-service div.container div.row div p {
+    padding-left: 10rem;
+  }
+}
+
+.section-contact {
+  margin-top: 10.2rem;
+}
+
+.section-contact div.container div.row div h4 {
+  margin-bottom: 3rem;
+}
+
+.section-contact div.container div.row div form div input {
+  padding: 15px;
+  background-color: #F5F5F5;
+  border: none;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+}
+
+.section-contact div.container div.row div form div textarea {
+  padding: 15px;
+  background-color: #F5F5F5;
+  border: none;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+}
+
+.section-contact div.container div.row div form button {
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border: 1px solid #1E1E1E;
+  font-family: "Lato";
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.5px;
+  color: #1E1E1E;
+}
+
+.section-contact div.adress-div {
+  margin-top: 11rem;
+  text-align: center;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ECD9D9;
+}
+
+.section-contact div.adress-div p {
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 4.5rem;
+  letter-spacing: normal;
+  color: #1E1E1E;
+}
+
+.section-single-blog-home div.container {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.section-single-blog-home div.container div.row div {
+  margin-bottom: 2rem;
+}
+
+.section-single-blog-home div.container div.row div p {
+  font-family: "Bodoni";
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 1px;
+  color: #1E1E1E;
+}
+
+.section-single-blog-home div.container div.row div h2 {
+  margin-bottom: 3rem;
+}
+
+.section-single-blog-home div.container div.row div p {
+  text-align: justify;
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  letter-spacing: normal;
+  color: #1E1E1E;
+  margin-bottom: 3rem;
+}
+
+.section-single-blog-home div.container div.row div img {
+  margin-bottom: 3rem;
+}
+
+.section-single-blog-home div.container2 {
+  text-align: center;
+}
+
+.section-single-blog-home div.container2 p {
+  text-align: justify;
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  letter-spacing: normal;
+  color: #1E1E1E;
+  margin-bottom: 3rem;
+}
+
+.section-single-blog-home div.container2 img {
+  margin-bottom: 3rem;
+}
+
+.section-single-blog-home div.container2 h6 {
+  font-family: "Bodoni";
+  font-size: 1.6rem;
+  line-height: 2.7rem;
+  color: #1E1E1E;
+  margin-bottom: 3rem;
+}
+
+.section-single-blog-home div.container2 .btn {
+  border: none;
+  background-color: #F5F5F5;
+  margin-right: 3.6rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 1200px) {
+  .section-single-blog-home div.container {
+    margin-top: 16.5rem;
+  }
+  .section-single-blog-home div.container div.row {
+    margin-bottom: 9.6rem;
+  }
+  .section-single-blog-home div.container div.row div {
+    margin-bottom: 4rem;
+    text-align: left !important;
+  }
+  .section-single-blog-home div.container div.row div p {
+    text-align: left;
+  }
+  .section-single-blog-home div.container div.row div h2 {
+    margin-bottom: 3rem;
+    max-width: 450px;
+  }
+  .section-single-blog-home div.container div.row div p {
+    margin-bottom: 3rem;
+    max-width: 450px;
+  }
+  .section-single-blog-home div.container div.row div {
+    text-align: center;
+  }
+  .section-single-blog-home div.container div.row div img {
+    margin-bottom: 3rem;
+  }
+  .section-single-blog-home div.container2 {
+    text-align: left !important;
+    text-align: center;
+  }
+  .section-single-blog-home div.container2 p {
+    margin-bottom: 5.2rem;
+  }
+  .section-single-blog-home div.container2 img {
+    margin-bottom: 5.2rem;
+  }
+  .section-single-blog-home div.container2 h6 {
+    margin-bottom: 5.2rem;
+  }
+  .section-single-blog-home div.container2 .btn {
+    margin-right: 3.6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.section-about div.container div.row div h2 {
+  margin-bottom: 3rem;
+}
+
+.section-about div.container div.row div div.border-div {
+  border: 1px solid #1E1E1E;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.section-about div.container div.row div div.border-div p {
+  padding-left: 3rem;
+  padding-right: 23rem;
+}
+
+.section-about div.container div.row div.div-paragraph p {
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 2.8rem;
+}
+
+.section-about div.container div.row div article {
+  text-align: center;
+  margin-bottom: 8rem;
+}
+
+.section-about div.container div.row div article div {
+  margin: 0 auto;
+  position: static !important;
+  background-color: white;
+  bottom: -3.5rem;
+  left: 10%;
+  padding-top: 1.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.section-about div.container div.row div article div p i {
+  font-family: "Bodoni";
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  line-height: 1.7rem;
+  color: #1E1E1E;
+}
+
+.section-about div.container div.row div article div p {
+  font-family: "Lato";
+  font-size: 1.6rem;
+  letter-spacing: normal;
+  line-height: 2.4rem;
+  color: #1E1E1E;
+  text-transform: uppercase;
+}
+
+.section-about div.container div.row div img {
+  margin-bottom: 4rem;
+  margin-top: -6rem;
 }
 
 /*# sourceMappingURL=theme.css.map */

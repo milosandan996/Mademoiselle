@@ -1,0 +1,41 @@
+
+
+footer{
+    margin-top: 10rem;
+    text-align: center;
+    div{
+        i{
+            height: 2rem;
+            width: 2rem;
+            color: $cream;
+            margin-right: 4rem;
+            margin-bottom: 1rem;
+            &:last-of-type{
+                margin-right: 0px;
+            }
+        }
+    }
+    div{
+        p{
+            font-family: $lato;
+            font-size: 1.2rem;
+            line-height: 4.1rem;
+            color: $black;
+            letter-spacing: -0.17px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

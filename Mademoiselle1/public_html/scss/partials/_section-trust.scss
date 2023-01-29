@@ -16,6 +16,13 @@ section.h44{
                     }
                     article{
                         padding-top: 8.5rem;
+                        p{
+                            font-family: $lato;
+                            font-weight: 300;
+                            font-size: 1.6rem;
+                            line-height: 2.3rem;
+                            color: $black;
+                        }
                     }
                 }
             }

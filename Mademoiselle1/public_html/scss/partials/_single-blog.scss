@@ -1,0 +1,138 @@
+
+
+.section-single-blog-home{
+    div.container{
+        text-align: center;
+        margin-top: 5rem;
+        div.row{
+            div{
+                margin-bottom: 2rem;
+                p{
+                    font-family: $bodoni;
+                    font-size: 1.4rem;
+                    line-height: 1.7rem;
+                    letter-spacing: 1px;
+                    color: $black;
+                }
+            }
+            div{
+                h2{
+                    @extend #h2;
+                    margin-bottom: 3rem;
+                }
+                p{
+                    text-align: justify;
+                    font-family: $lato;
+                    font-weight: 300;
+                    font-size: 2rem;
+                    line-height: 2.8rem;
+                    letter-spacing: normal;
+                    color: $black;
+                    margin-bottom: 3rem;
+                }
+            }
+            div{
+                img{
+                    margin-bottom: 3rem;
+                }
+            }
+        }
+    }
+    div.container2{
+        text-align: center;
+        p{
+            text-align: justify;
+            font-family: $lato;
+            font-weight: 300;
+            font-size: 2rem;
+            line-height: 2.8rem;
+            letter-spacing: normal;
+            color: $black;
+            margin-bottom: 3rem;
+        }
+        img{
+            margin-bottom: 3rem;
+        }
+        h6{
+            font-family: $bodoni;
+            font-size: 1.6rem;
+            line-height: 2.7rem;
+            color: $black;
+            margin-bottom: 3rem;
+        }
+        .btn{
+            border: none;
+            background-color: $gray-light;
+            margin-right: 3.6rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+    }
+}
+
+
+
+
+
+@media(min-width:1200px){
+
+    .section-single-blog-home{
+        div.container{
+            margin-top: 16.5rem;
+            div.row{
+                margin-bottom: 9.6rem;
+                div{
+                    margin-bottom: 4rem;
+                    text-align: left !important;
+                    p{
+                        text-align: left;
+                    }
+                }
+                div{
+                    h2{
+                        margin-bottom: 3rem;
+                        max-width: 450px;
+                    }
+                    p{
+                        margin-bottom: 3rem;
+                        max-width: 450px;
+                    }
+                }
+                div{
+                    text-align: center;
+                    img{
+                        margin-bottom: 3rem;
+                    }
+                }
+            }
+        }
+        div.container2{
+            text-align: left !important;
+            text-align: center;
+            p{
+                margin-bottom: 5.2rem;
+            }
+            img{
+                margin-bottom: 5.2rem;
+            }
+            h6{
+                margin-bottom: 5.2rem;
+            }
+            .btn{
+                margin-right: 3.6rem;
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+        }
+    }
+
+
+}
+
+
+
+
+
+
+
+
